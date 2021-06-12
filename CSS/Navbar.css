@@ -1,0 +1,139 @@
+
+
+header {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    max-height: 600px;
+}
+
+.header:hover {
+    background-color: var(--nav-purple);
+    transition: ease;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    height: 10%;
+    width: 10%;
+    color: white;
+}
+
+/*#logo {
+    display: block;
+    margin: auto;
+}*/
+
+#login {
+    background-color: var(--purple);
+    font-family: var(--font-one);
+    font-style: bold;
+    color: #e4dee9;
+    border: none;
+    border-radius: 5%;
+    padding: 8px 20px 5px 20px;
+    display: flex;
+    float: right;
+    float: top;
+    margin: 5vh 10vw 0 0;
+}
+
+#login:hover {
+    background-color: var(--dark-purple);
+}
+
+.navbar {
+    font-family: var(--font-one);
+    margin: none;
+}
+
+.navbar:hover {
+    background-color: var(--nav-black);
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 0;
+    max-width: 1500px;
+    height: 50px;
+    color: white;
+    margin: 010vw;
+}
+
+.navbar-list-items {
+    text-decoration: none;
+    padding: .5vw;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: var(--font-one);
+    font: 2px;
+}
+
+.navbar-list-items:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--purple);
+    padding: .5vw;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.arrow {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        margin: 0 0 3px 5px;
+      }
+
+
+/*.dropdown-1 {
+    border: none;
+    list-style-type: none;
+    color: white;
+    font-family: var(--font-one);
+    font: 1.5em;
+    text-decoration: none;
+    padding: .5vw;
+    background-color: transparent;
+}
+
+.dropdown-2 {
+    border: none;
+}
+
+.dropdown-3 {
+    border: none;
+}
+
+.dropdown-1:hover {
+    border: none;
+    background-color: var(--nav-black);
+}
+
+.dropdown-2:hover {
+    border: none;
+    background-color: var(--nav-black);
+}
+
+.dropdown-3:hover {
+    border: none;
+    background-color: var(--nav-black);
+}*/
+
+a:visited {
+    color: inherit;
+}
+

@@ -1,0 +1,27 @@
+.flex-container-1 {
+    display: block;
+    margin: auto;
+}
+
+#read-more-content {
+    text-align: center;
+    font-size: 1em;
+    font-family: var(--font-two);
+    max-width: 440px;
+    padding: 1vh 25vw 1vh 25vw;
+    color: white;
+    line-height: 20px;
+}
+
+#read-more-para {
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--font-one);
+    max-width: 900px;
+    color: white;
+}
+
+#read-img, #read-more-para, #read-more-content {
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,17 @@
+@import "variables.css";
+@import "Navbar.css";
+@import "readmore.css";
+
+body {
+    background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/1y2lHgXqy9recocUFNcgiZ/08684e35db7924c32366a5c7b4a99421/Homepage_takeover_refresh.jpg);
+    position: absolute;
+    background-color: black;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    -moz-box-shadow: inset 0px -200px 850px 20px #000;
+    -webkit-box-shadow: inset 0px -200px 850px 20px #000;
+    -o-box-shadow: inset 0px -200px 850px 20px #000;
+    box-shadow: inset 0px -200px 850px 20px #000;
+}
